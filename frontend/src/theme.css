@@ -1,0 +1,158 @@
+/* src/theme.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #4fa3f7; /* Sky blue */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #3478d5;
+  }
+  
+  /* ChatRoom */
+  .chat-room {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .chat-room-container {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .chat-list {
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    padding: 10px;
+  }
+  
+  .chat-list h2 {
+    margin-bottom: 15px;
+  }
+  
+  .chat-item {
+    padding: 10px;
+    border-bottom: 1px solid #f0f4f8;
+    cursor: pointer;
+  }
+  
+  .chat-item:hover {
+    background-color: #f0f4f8;
+  }
+  
+  .chat-box {
+    flex-grow: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .message-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .message-form input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .message-form button {
+    padding: 10px 20px;
+    background-color: #4fa3f7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .message-form button:hover {
+    background-color: #3478d5;
+  }
+  
+  /* Login and Signup Forms */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-field {
+    margin-bottom: 15px;
+  }
+  
+  .input-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input-field input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4fa3f7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3478d5;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #4fa3f7;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
